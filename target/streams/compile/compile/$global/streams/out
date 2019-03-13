@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\src\main\scala\net\ajn\credentialutil\svc\impl\AkkaCredentialService.scala:51:26: net.ajn.credentialutil.svc.impl.AkkaCredentialService.type does not take parameters[0m
-[0m[[0m[31merror[0m] [0m[0m    AkkaCredentialService(http)[0m
-[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\src\main\scala\net\ajn\credentialutil\Main.scala:39:44: value tokenType is not a member of net.ajn.credentialutil.svc.models.Token[0m
+[0m[[0m[31merror[0m] [0m[0m      case Success(value) => println(value.tokenType)[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

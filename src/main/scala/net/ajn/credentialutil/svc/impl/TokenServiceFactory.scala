@@ -10,13 +10,15 @@ object TokenServiceFactory {
 
   val config : Config = ConfigFactory.load
 
+
+
   def getDefaultImplementation(): String = {
     config.getString(Constants.DEFAULT_CLIENT_CONFIG_PARAM)
 
   }
 
   def getInstance(impl: String = getDefaultImplementation())(implicit system: ActorSystem, materializer: ActorMaterializer): CredentialService = impl match {
-    case Constants.AKKA_SERVICE_ID => AkkaCredentialService.getInstance(config)
-    case Constants.APACHE_SERVICE_ID => AkkaCredentialService.getInstance(config)
+    case Constants.AKKA_SERVICE_ID => AkkaCredentialService.getInstance()
+    case Constants.APACHE_SERVICE_ID => AkkaCredentialService.getInstance()
   }
 }
