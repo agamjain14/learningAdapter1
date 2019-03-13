@@ -22,7 +22,10 @@ object Main {
 
 
     implicit val ec: ExecutionContext = scala.concurrent.ExecutionContext.Implicits.global
-    //implicit val materializer: ActorMaterializer = ActorMaterializer()
+    implicit val system = ActorSystem()
+    implicit val materializer = ActorMaterializer()
+    implicit val executionContext = system.dispatcher
+
     val tokenService = TokenServiceFactory.getInstance()
 
     val tokenRequest = LearningTokenRequest(
