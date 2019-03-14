@@ -2,58 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11a73152-ed2e-4289-8476-6278a4d9e414" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/LearningModuleAkka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/LearningModuleAkka.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/learningmoduleakka-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/learningmoduleakka-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/learningmoduleakka-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/learningmoduleakka-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learningmoduleakka-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/reference.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/reference.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/CredentialService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/CredentialService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/impl/AkkaCredentialService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/impl/AkkaCredentialService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/impl/TokenServiceFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/impl/TokenServiceFactory.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/Token.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/Token.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/TokenRequest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/TokenRequest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Main$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main$LearningTokenRequest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Main$LearningTokenRequest$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main$LearningTokenRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Main$LearningTokenRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/ifaces/CredentialService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/ifaces/CredentialService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/impl/AkkaCredentialService$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/impl/AkkaCredentialService$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/impl/AkkaCredentialService$anon$importedDecoder$macro$12$1$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/impl/AkkaCredentialService$anon$importedDecoder$macro$12$1$$anon$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/impl/AkkaCredentialService$anon$importedDecoder$macro$12$1$anon$macro$9$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/impl/AkkaCredentialService$anon$importedDecoder$macro$12$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/impl/AkkaCredentialService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/impl/AkkaCredentialService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/impl/TokenServiceFactory$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/impl/TokenServiceFactory$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/models/ClientCredentialsRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/models/ClientCredentialsRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/models/SAMLBearerAssertionRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/models/SAMLBearerAssertionRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/models/Token$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/models/Token$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/models/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/models/Token.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/models/TokenRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/net/ajn/credentialutil/svc/models/TokenRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/reference.conf" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/reference.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/learningmoduleakka_2.12-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/learningmoduleakka_2.12-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/learningmoduleakka_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/learningmoduleakka_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/learningmoduleakka_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/learningmoduleakka_2.12/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/learningmoduleakka$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/learningmoduleakka$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/learningmoduleakka$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/learningmoduleakka$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningmoduleakka$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,9 +68,39 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/CredentialService.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+              <caret line="8" column="27" selection-start-line="8" selection-end-line="9" />
               <folding>
                 <element signature="e#43#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/ContentTypes.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/AuthTypes.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/TokenRequest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              <folding>
+                <element signature="e#43#102#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,11 +109,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/impl/AkkaCredentialService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="580">
+              <caret line="47" lean-forward="true" selection-start-line="36" selection-end-line="47" />
               <folding>
                 <element signature="e#41#74#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/Token.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -106,61 +137,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/TokenRequest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-              <folding>
-                <element signature="e#43#102#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/ProxyAuthTypes.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/Token.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/Constants.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/Proxy.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/Main.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -169,9 +149,21 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/impl/TokenServiceFactory.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
               <folding>
                 <element signature="e#41#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/Main.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="64" column="34" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,6 +180,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -220,14 +213,14 @@
         <option value="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/client/learningconfig/LearningRequest.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/resources/reference.conf" />
-        <option value="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/Token.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/ProxyAuthTypes.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/Proxy.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/CredentialService.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/impl/TokenServiceFactory.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/TokenRequest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/Main.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/impl/AkkaCredentialService.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/Main.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/ProxyAuthTypes.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/TokenRequest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/Token.scala" />
       </list>
     </option>
   </component>
@@ -244,7 +237,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,10 +339,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552494662227" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552545626736" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../OdataV4Play" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -440,6 +433,14 @@
       <option name="presentableId" value="Default" />
       <updated>1552289458469</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated">
+      <created>1552494780984</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552494780984</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -455,7 +456,7 @@
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2234957" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20773639" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -470,11 +471,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891247" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" sideWeight="0.49928367" visible="true" weight="0.115384616" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" sideWeight="0.49928367" visible="true" weight="0.14854111" />
       <window_info anchor="bottom" id="SBT Console" order="9" weight="0.32891247" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.7493369" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007163" side_tool="true" weight="0.1724138" />
-      <window_info anchor="bottom" id="Build" order="12" weight="0.3050398" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.15119363" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32891247" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -486,6 +487,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="sbt" order="8" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/tes.txt" />
@@ -605,34 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/AuthTypes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/ContentTypes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/GrantTypes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/ProxyAuthTypes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/Constants.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -647,27 +624,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/Token.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/GrantTypes.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/CredentialService.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/Token.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-end-line="9" />
-          <folding>
-            <element signature="e#43#105#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/models/TokenRequest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="509">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding>
             <element signature="e#43#102#0" expanded="true" />
           </folding>
@@ -676,18 +650,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="169">
+          <caret line="64" column="34" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="34" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/CredentialService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-end-line="9" />
+          <folding>
+            <element signature="e#43#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/ContentTypes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/AuthTypes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/ifaces/ProxyAuthTypes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/impl/TokenServiceFactory.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding>
             <element signature="e#41#70#0" expanded="true" />
           </folding>
@@ -696,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/net/ajn/credentialutil/svc/impl/AkkaCredentialService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="580">
+          <caret line="47" lean-forward="true" selection-start-line="36" selection-end-line="47" />
           <folding>
             <element signature="e#41#74#0" expanded="true" />
           </folding>
