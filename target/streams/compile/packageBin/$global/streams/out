@@ -1,5 +1,7 @@
 [0m[[0m[0minfo[0m] [0m[0mPackaging C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\learningmoduleakka_2.12-0.1.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\client\learning\impl\CreateLearningRequest$LearningTokenRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\client\learning\impl\CreateLearningRequest$LearningTokenRequest.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\ifaces\GrantTypes.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\svc\ifaces\GrantTypes.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\ifaces\GrantTypes$.class[0m
@@ -10,10 +12,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\svc\ifaces\ContentTypes.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\impl\TokenServiceFactory$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\svc\impl\TokenServiceFactory$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\client\learning[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\client\learning[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\client\credential\t1.txt[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\client\credential\t1.txt[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\ifaces\AuthTypes$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\svc\ifaces\AuthTypes$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\client\learning\impl\GenerateToken$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\client\learning\impl\GenerateToken$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\ifaces\ContentTypes$ContentType.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\svc\ifaces\ContentTypes$ContentType.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\ifaces\ProxyAuthTypes$.class[0m
@@ -38,6 +44,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\ifaces\GrantTypes$GrantType.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\svc\ifaces\GrantTypes$GrantType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\client\learning\impl[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\client\learning\impl[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\ifaces\AuthTypes$BasicAuth$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\svc\ifaces\AuthTypes$BasicAuth$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\models\Proxy$.class[0m
@@ -52,6 +60,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\client\tes.txt[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\ifaces\AuthTypes$PayloadAuth$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\svc\ifaces\AuthTypes$PayloadAuth$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\client\learning\impl\CreateLearningRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\client\learning\impl\CreateLearningRequest$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\svc[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\ifaces\GrantTypes$SAMLBearerAssertion$.class[0m
@@ -82,6 +92,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\svc\models\Constants.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\ifaces\ContentTypes$URLFormEncoded$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\svc\ifaces\ContentTypes$URLFormEncoded$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\client\learning\impl\GenerateToken.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\client\learning\impl\GenerateToken.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\impl[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\svc\impl[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\client\learningconfig\ScopeConfig$.class[0m
@@ -92,8 +104,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\svc\ifaces\ProxyAuthTypes$ProxyAuthType.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\Main$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Main$LearningTokenRequest.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\Main$LearningTokenRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\client\learning\impl\CreateLearningRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\client\learning\impl\CreateLearningRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\client\learning\impl\CreateLearningRequest$LearningTokenRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\client\learning\impl\CreateLearningRequest$LearningTokenRequest$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\ifaces\AuthTypes$BearerAuth$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\svc\ifaces\AuthTypes$BearerAuth$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\impl\AkkaCredentialService$anon$importedDecoder$macro$11$1.class[0m
@@ -116,8 +130,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\svc\impl\AkkaCredentialService$anon$importedDecoder$macro$11$1$anon$macro$9$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\client\learningconfig\LearningPayload$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\client\learningconfig\LearningPayload$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Main$LearningTokenRequest$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\Main$LearningTokenRequest$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\ifaces\ProxyAuthTypes$NTLM$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\target\scala-2.12\classes\net\ajn\credentialutil\svc\ifaces\ProxyAuthTypes$NTLM$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	net\ajn\credentialutil\svc\impl\TokenServiceFactory.class[0m

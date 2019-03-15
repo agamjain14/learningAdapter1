@@ -4,14 +4,14 @@ import java.net.InetSocketAddress
 
 import akka.actor.ActorSystem
 import akka.http.scaladsl.model._
-import akka.http.scaladsl.model.headers.{Accept, BasicHttpCredentials}
+import akka.http.scaladsl.model.headers.{Accept, Authorization, BasicHttpCredentials}
 import akka.http.scaladsl.settings.ConnectionPoolSettings
 import akka.http.scaladsl.{ClientTransport, Http, HttpExt}
 import akka.stream.ActorMaterializer
 import akka.util.ByteString
 import io.circe.generic.auto._
 import io.circe.parser.parse
-import net.ajn.credentialutil.svc.ifaces.CredentialService
+import net.ajn.credentialutil.svc.ifaces.{AuthTypes, CredentialService}
 import net.ajn.credentialutil.svc.models.{Proxy, Token, TokenRequest}
 
 import scala.concurrent.duration.DurationInt
@@ -35,16 +35,18 @@ class AkkaCredentialService(client: HttpExt)(implicit system: ActorSystem, mater
 
   override def getToken(request: TokenRequest)(implicit ec: ExecutionContext): Future[Token] = {
 
-    val authorization = headers.Authorization(BasicHttpCredentials(request.clientId, request.clientSecret))
+    val authorization  = request.authType match {
+      case AuthTypes.BasicAuth => headers.Authorization(BasicHttpCredentials(request.clientId, request.clientSecret))
+      case AuthTypes.BearerAuth => null
+      case AuthTypes.PayloadAuth => null
+    }
     val authHeaders = List(authorization, Accept(MediaTypes.`application/json`))
     val httpRequest = HttpRequest(method = HttpMethods.POST, uri = Uri(request.tokenEndpoint), headers = authHeaders, entity = HttpEntity(MediaTypes.`application/json`, request.stringifyRequestBody))
-
     for {
         HttpResponse(_,_,entity,_) <- makeRequest(httpRequest, request.getProxy)
         stringEntity <- loadEntity(entity)
         token <- parseToken(stringEntity)
     } yield token
-
   }
 
   private def loadEntity(entity: HttpEntity)(implicit ec: ExecutionContext): Future[String] =
