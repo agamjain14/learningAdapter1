@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\src\main\scala\net\ajn\credentialutil\Main.scala:39:44: value tokenType is not a member of net.ajn.credentialutil.svc.models.Token[0m
-[0m[[0m[31merror[0m] [0m[0m      case Success(value) => println(value.tokenType)[0m
-[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\src\main\scala\net\ajn\credentialutil\client\learning\impl\LearningAdapterClientProxy.scala:36:76: class java.net.URI is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m    val httpRequest = client.getRetrieveRequestFactory.getEntitySetRequest(URI)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                           ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

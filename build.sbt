@@ -13,4 +13,12 @@ libraryDependencies ++= Seq(
   "io.circe" %% "circe-generic" % "0.11.1",
   "io.circe" %% "circe-parser" % "0.11.1",
   "io.circe" %% "circe-config" % "0.6.1",
+  "org.apache.olingo" % "odata-client-api" % "4.5.0",
+  "org.apache.olingo" % "odata-client-core" % "4.5.0",
+  "ch.qos.logback" % "logback-classic" % "1.2.3",
+  "com.typesafe.scala-logging" %% "scala-logging" % "3.5.0",
+  "org.scala-lang.modules" % "scala-java8-compat_2.12" % "0.9.0",
+
+  "com.iheart" %% "ficus" % "1.4.3"
+
 )
