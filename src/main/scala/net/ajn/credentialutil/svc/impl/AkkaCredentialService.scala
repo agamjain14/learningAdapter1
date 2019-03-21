@@ -9,6 +9,7 @@ import akka.http.scaladsl.settings.ConnectionPoolSettings
 import akka.http.scaladsl.{ClientTransport, Http, HttpExt}
 import akka.stream.ActorMaterializer
 import akka.util.ByteString
+import com.typesafe.config.Config
 import io.circe.generic.auto._
 import io.circe.parser.parse
 import net.ajn.credentialutil.svc.ifaces.{AuthTypes, CredentialService}
@@ -17,12 +18,12 @@ import net.ajn.credentialutil.svc.models.{Proxy, Token, TokenRequest}
 import scala.concurrent.duration.DurationInt
 import scala.concurrent.{ExecutionContext, Future}
 
-class AkkaCredentialService(client: HttpExt)(implicit system: ActorSystem, materializer: ActorMaterializer) extends CredentialService {
+class AkkaCredentialService(client: AkkaHttpService)(implicit system: ActorSystem, materializer: ActorMaterializer) extends CredentialService {
 
-  override def close() : Future[Unit] = client.shutdownAllConnectionPools()
+  override def close() : Future[Unit] = client.close()
 
 
-  def makeRequest(httpRequest: HttpRequest, proxy: Option[Proxy]): Future[HttpResponse] = {
+  /*private def makeRequest(httpRequest: HttpRequest, proxy: Option[Proxy]): Future[HttpResponse] = {
     proxy match {
       case Some(proxy) => {
         val address = InetSocketAddress.createUnresolved(proxy.host, proxy.port)
@@ -31,7 +32,7 @@ class AkkaCredentialService(client: HttpExt)(implicit system: ActorSystem, mater
       }
       case None => client.singleRequest(request = httpRequest)
     }
-  }
+  }*/
 
   override def getToken(request: TokenRequest)(implicit ec: ExecutionContext): Future[Token] = {
 
@@ -43,7 +44,7 @@ class AkkaCredentialService(client: HttpExt)(implicit system: ActorSystem, mater
     val authHeaders = List(authorization, Accept(MediaTypes.`application/json`))
     val httpRequest = HttpRequest(method = HttpMethods.POST, uri = Uri(request.tokenEndpoint), headers = authHeaders, entity = HttpEntity(MediaTypes.`application/json`, request.stringifyRequestBody))
     for {
-        HttpResponse(_,_,entity,_) <- makeRequest(httpRequest, request.getProxy)
+        HttpResponse(_,_,entity,_) <- client.singleRequest(httpRequest)
         stringEntity <- loadEntity(entity)
         token <- parseToken(stringEntity)
     } yield token
@@ -69,9 +70,26 @@ class AkkaCredentialService(client: HttpExt)(implicit system: ActorSystem, mater
 }
 
 object AkkaCredentialService {
-  def getInstance()(implicit system: ActorSystem, materializer: ActorMaterializer): CredentialService = {
-    val http = Http()
-    new AkkaCredentialService(http)
+  def getInstance(config: Config)(implicit system: ActorSystem, ec: ExecutionContext, materializer: ActorMaterializer): CredentialService = {
 
+    val http = Http()
+    createInstance(config,http)
+  }
+
+
+  def getAnInstanceFromHttpExt(config: Config, http: HttpExt)(implicit system: ActorSystem, ec: ExecutionContext, materializer: ActorMaterializer): CredentialService = {
+      createInstance(config,http)
+  }
+
+  private def createInstance(config: Config, http: HttpExt)(implicit system: ActorSystem, ec: ExecutionContext, materializer: ActorMaterializer) ={
+    if (config.getBoolean("sts.proxyEnable")) {
+      val host = config.getString("sts.proxy.host")
+      val port = config.getInt("sts.proxy.port")
+      val address = InetSocketAddress.createUnresolved(host,port)
+      new AkkaCredentialService(AkkaHttpService(http,Some(address)))
+    }
+    else {
+      new AkkaCredentialService(AkkaHttpService(http, None))
+    }
   }
 }

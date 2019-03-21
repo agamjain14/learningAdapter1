@@ -1,66 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="learningmoduleakka [file:/C:/Users/A674634/Desktop/scala/playProjects/LearningModuleAkka/]" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../../target/scala-2.12/classes" />
-    <output-test url="file://$MODULE_DIR$/../../target/scala-2.12/test-classes" />
+    <output url="file://$MODULE_DIR$/../../target/scala-2.11/classes" />
+    <output-test url="file://$MODULE_DIR$/../../target/scala-2.11/test-classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../..">
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/scala" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/test/scala" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.12/src_managed/main" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.12/src_managed/test" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.11/src_managed/main" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.11/src_managed/test" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="sbt: com.chuusai:shapeless_2.12:2.3.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.iheart:ficus_2.12:1.4.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-java8-compat_2.12:0.9.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.codehaus.woodstox:stax2-api:3.1.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.olingo:odata-client-core:4.5.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.olingo:odata-client-api:4.5.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.httpcomponents:httpcore:4.2.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.httpcomponents:httpclient:4.2.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.commons:commons-lang3:3.3.2:jar" level="project" />
-    <orderEntry type="library" name="sbt: commons-logging:commons-logging:1.1.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: commons-io:commons-io:2.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.7.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.7.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-databind:2.7.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-core:2.7.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-annotations:2.7.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.fasterxml:aalto-xml:0.9.10:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.typelevel:macro-compat_2.12:1.1.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.typelevel:machinist_2.12:0.6.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.typelevel:jawn-parser_2.12:0.14.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.typelevel:cats-macros_2.12:1.5.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.typelevel:cats-kernel_2.12:1.5.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.typelevel:cats-core_2.12:1.5.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.12.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.reactivestreams:reactive-streams:1.0.2:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.circe:circe-parser_2.12:0.11.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.circe:circe-numbers_2.12:0.11.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.circe:circe-jawn_2.12:0.11.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.circe:circe-generic_2.12:0.11.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.circe:circe-core_2.12:0.11.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.circe:circe-config_2.12:0.6.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.typesafe.akka:akka-stream_2.12:2.5.19:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.typesafe.akka:akka-protobuf_2.12:2.5.19:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.typesafe.akka:akka-parsing_2.12:10.1.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.typesafe.akka:akka-http_2.12:10.1.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.typesafe.akka:akka-http-core_2.12:10.1.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.typesafe.akka:akka-actor_2.12:2.5.19:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.typesafe:ssl-config-core_2.12:0.3.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.typesafe:config:1.3.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: commons-codec:commons-codec:1.9:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.olingo:odata-commons-api:4.5.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.olingo:odata-commons-core:4.5.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: ch.qos.logback:logback-classic:1.2.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: ch.qos.logback:logback-core:1.2.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.typesafe.scala-logging:scala-logging_2.12:3.5.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.25:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.spray:spray-json_2.11:1.3.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: ch.qos.logback:logback-core:1.2.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: ch.qos.logback:logback-classic:1.2.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.olingo:odata-commons-core:4.5.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.olingo:odata-commons-api:4.5.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: commons-codec:commons-codec:1.9:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe:config:1.3.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.reactivestreams:reactive-streams:1.0.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml:aalto-xml:0.9.10:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-annotations:2.7.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-core:2.7.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-databind:2.7.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.7.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.7.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: commons-io:commons-io:2.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: commons-logging:commons-logging:1.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.commons:commons-lang3:3.3.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.httpcomponents:httpclient:4.2.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.httpcomponents:httpcore:4.2.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.olingo:odata-client-api:4.5.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.olingo:odata-client-core:4.5.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.codehaus.woodstox:stax2-api:3.1.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.chuusai:shapeless_2.11:2.3.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.iheart:ficus_2.11:1.4.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe:ssl-config-core_2.11:0.3.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.akka:akka-actor_2.11:2.5.19:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.akka:akka-http-core_2.11:10.1.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.akka:akka-http_2.11:10.1.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.akka:akka-parsing_2.11:10.1.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.akka:akka-protobuf_2.11:2.5.19:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.akka:akka-stream_2.11:2.5.19:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.scala-logging:scala-logging_2.11:3.5.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-config_2.11:0.6.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-core_2.11:0.11.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-generic_2.11:0.11.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-jawn_2.11:0.11.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-numbers_2.11:0.11.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.circe:circe-parser_2.11:0.11.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.11.11:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.11.11:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-java8-compat_2.11:0.9.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-parser-combinators_2.11:1.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-core_2.11:1.5.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-kernel_2.11:1.5.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:cats-macros_2.11:1.5.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:jawn-parser_2.11:0.14.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:machinist_2.11:0.6.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.typelevel:macro-compat_2.11:1.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.github.nscala-time:nscala-time_2.11:2.22.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: joda-time:joda-time:2.10.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.joda:joda-convert:2.2.0:jar" level="project" />
   </component>
 </module>

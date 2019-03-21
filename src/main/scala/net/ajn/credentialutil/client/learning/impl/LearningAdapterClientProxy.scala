@@ -7,6 +7,7 @@ import akka.http.javadsl.model.Uri
 import com.typesafe.config.{Config, ConfigFactory}
 import com.typesafe.scalalogging.StrictLogging
 import net.ajn.credentialutil.client.utils.JFutureConverter
+import net.ajn.credentialutil.svc.ifaces.CredentialService
 import net.ajn.credentialutil.svc.models.Token
 import org.apache.olingo.client.api.ODataClient
 import org.apache.olingo.client.api.communication.request.retrieve.ODataEntitySetRequest
@@ -17,17 +18,17 @@ import org.apache.olingo.client.core.http.ProxyWrappingHttpClientFactory
 import scala.compat.java8.FutureConverters
 import scala.concurrent.{ExecutionContext, Future}
 
-class LearningAdapterClientProxy(client: ODataClient, tokenProvider: TokenProvider)(implicit EC: ScheduledExecutorService) extends StrictLogging {
+class LearningAdapterClientProxy(client: ODataClient, sts: CredentialService)(implicit EC: ScheduledExecutorService) extends StrictLogging {
   def readFeed(feedRequest: ODataFeedRequest)(implicit ec: ExecutionContext): Future[ClientEntitySet] = {
     for {
-      token <- tokenProvider.getToken(feedRequest.userId.get)
+      token <- sts.getToken(feedRequest.tokenRequestGenerator(feedRequest.userId.get))
       response <- FutureConverters.toScala(JFutureConverter(buildRequest(client, feedRequest, token, buildFeedURI(client, feedRequest)).asyncExecute()))
     } yield response.getBody
   }
 
   def readEntry(entryRequest: EntryRequest)(implicit ec: ExecutionContext) = {
     for {
-      token <- tokenProvider.getToken(entryRequest.userId.get)
+      token <- sts.getToken(entryRequest.tokenRequestGenerator(entryRequest.userId.get))
       response <- FutureConverters.toScala(JFutureConverter(buildRequest(client, entryRequest, token, buildEntryUri(client, entryRequest)).asyncExecute()))
     } yield response.getBody
   }
@@ -69,9 +70,9 @@ class LearningAdapterClientProxy(client: ODataClient, tokenProvider: TokenProvid
 
 
 object LearningAdapterClientProxy {
-  def getInstance(config: Config, tokenProvider: TokenProvider)(implicit pollingExecutor: ScheduledExecutorService, ec: ExecutionContext) = {
+  def getInstance(config: Config, sts: CredentialService)(implicit pollingExecutor: ScheduledExecutorService, ec: ExecutionContext) = {
 
-    new LearningAdapterClientProxy(initODataClient(config), tokenProvider)
+    new LearningAdapterClientProxy(initODataClient(config), sts)
   }
 
   private def initODataClient(config: Config) = {

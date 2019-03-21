@@ -6,6 +6,8 @@ import com.typesafe.config.{Config, ConfigFactory}
 import net.ajn.credentialutil.svc.ifaces.CredentialService
 import net.ajn.credentialutil.svc.models.Constants
 
+import scala.concurrent.ExecutionContext
+
 object TokenServiceFactory {
 
   val config : Config = ConfigFactory.load
@@ -17,8 +19,8 @@ object TokenServiceFactory {
 
   }
 
-  def getInstance(impl: String = getDefaultImplementation())(implicit system: ActorSystem, materializer: ActorMaterializer): CredentialService = impl match {
-    case Constants.AKKA_SERVICE_ID => AkkaCredentialService.getInstance()
-    case Constants.APACHE_SERVICE_ID => AkkaCredentialService.getInstance()
+  def getInstance(impl: String = getDefaultImplementation())(implicit system: ActorSystem, ec: ExecutionContext, materializer: ActorMaterializer): CredentialService = impl match {
+    case Constants.AKKA_SERVICE_ID => AkkaCredentialService.getInstance(config)
+    case Constants.APACHE_SERVICE_ID => AkkaCredentialService.getInstance(config)
   }
 }

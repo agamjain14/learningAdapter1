@@ -14,32 +14,44 @@ import net.ajn.credentialutil.svc.models.{ClientCredentialsRequest, Proxy, Tenan
 
 import scala.concurrent.{ExecutionContext, Future}
 
+
 trait TokenProvider {
   def getToken(userId: String)(implicit ec: ExecutionContext): Future[Token]
 }
 
 class LearningTokenProvider(sts: CredentialService, requestGenerator: String => TokenRequest) extends TokenProvider{
   def getToken(userId: String)(implicit ec: ExecutionContext): Future[Token] = sts.getToken(requestGenerator(userId))
+
+  def getSts(): CredentialService = sts
+
+
 }
 
 object LearningTokenProvider {
+
+
+
   val config : Config = ConfigFactory.load
 
-  def getInstance()(implicit system: ActorSystem, materializer: ActorMaterializer): LearningTokenProvider = {
+
+  def requestGenerator = (userId: String) => LearningTokenRequest(
+    userId = userId,
+    tokenEndpoint = config.getString("adapter.learning.tokenEndPoint"),
+    clientId = config.getString("adapter.learning.sso.username"),
+    authType = AuthTypes.BasicAuth,
+    contentType = ContentTypes.Json,
+    tenantId = config.getString("adapter.learning.sso.scope.companyId"),
+    clientSecret = config.getString("adapter.learning.sso.pwd")
+  )
+
+
+  def getInstance()(implicit system: ActorSystem, materializer: ActorMaterializer,executionContext: ExecutionContext): LearningTokenProvider = {
 
 
 
     val tokenService = TokenServiceFactory.getInstance()
 
-    def requestGenerator = (userId: String) => LearningTokenRequest(
-      userId = userId,
-      tokenEndpoint = config.getString("adapter.learning.tokenEndPoint"),
-      clientId = config.getString("adapter.learning.sso.username"),
-      authType = AuthTypes.BasicAuth,
-      contentType = ContentTypes.Json,
-      tenantId = config.getString("adapter.learning.sso.scope.companyId"),
-      clientSecret = config.getString("adapter.learning.sso.pwd")
-    )
+
 
     new LearningTokenProvider(tokenService, requestGenerator)
 
@@ -66,7 +78,7 @@ object LearningTokenProvider {
       }
     }
     override def stringifyRequestBody: String = {
-      val json = s"""
+      s"""
                     |{
                     |    "grant_type": "${ClientCredentials.toString()}",
                     |    "scope" : {
@@ -78,8 +90,8 @@ object LearningTokenProvider {
                     |  }
         """.stripMargin
 
-      val res: Json = parse(json).getOrElse(Json.Null)
-      res.toString()
+      /*val res: Json = parse(json).getOrElse(Json.Null)
+      res.toString()*/
     }
   }
 
