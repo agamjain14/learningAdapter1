@@ -1,5 +1,5 @@
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\src\main\scala\net\ajn\credentialutil\RunLearningAdapter.scala:71:71: match may not be exhaustive.[0m
-[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Failure(_)[0m
-[0m[[0m[33mwarn[0m] [0m[0m        new LearningQueryHandler().pullAll(adapterContext).onComplete {[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\A674634\Desktop\scala\playProjects\LearningModuleAkka\src\main\scala\net\ajn\credentialutil\client\ncf\LearningItemDataSerializer.scala:39:130: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Approval(_, _, _, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def serializeItem(context: AdapterContext[TSourceContext, TUserContext], id: TItemId, data: TItemData): NCFItemData = data match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                 ^[0m
 [0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
