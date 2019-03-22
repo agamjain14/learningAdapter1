@@ -22,18 +22,6 @@ class AkkaCredentialService(client: AkkaHttpService)(implicit system: ActorSyste
 
   override def close() : Future[Unit] = client.close()
 
-
-  /*private def makeRequest(httpRequest: HttpRequest, proxy: Option[Proxy]): Future[HttpResponse] = {
-    proxy match {
-      case Some(proxy) => {
-        val address = InetSocketAddress.createUnresolved(proxy.host, proxy.port)
-        val proxySettings: ConnectionPoolSettings = ConnectionPoolSettings(system).withTransport(ClientTransport.httpsProxy(address))
-        client.singleRequest(request = httpRequest, settings = proxySettings)
-      }
-      case None => client.singleRequest(request = httpRequest)
-    }
-  }*/
-
   override def getToken(request: TokenRequest)(implicit ec: ExecutionContext): Future[Token] = {
 
     val authorization  = request.authType match {

@@ -3,8 +3,7 @@ package net.ajn.credentialutil.client.learning.impl
 import java.net.URI
 import java.util.concurrent.ScheduledExecutorService
 
-import akka.http.javadsl.model.Uri
-import com.typesafe.config.{Config, ConfigFactory}
+import com.typesafe.config.Config
 import com.typesafe.scalalogging.StrictLogging
 import net.ajn.credentialutil.client.utils.JFutureConverter
 import net.ajn.credentialutil.svc.ifaces.CredentialService

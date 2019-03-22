@@ -5,6 +5,7 @@ import net.ajn.credentialutil.svc.models.TokenRequest
 import net.atos.ncf.common.objs.NCFBusinessContext
 import org.joda.time.DateTime
 
+import net.ajn.credentialutil.client.ncf.filter.Syntax._
 
 package object ncf {
 
@@ -12,7 +13,9 @@ package object ncf {
     def key: LearningItemKey
   }
 
-  sealed trait LearningItemKey
+  sealed trait LearningItemKey {
+    def collection: String
+  }
 
 
   type TItemData = LearningItem
@@ -21,14 +24,25 @@ package object ncf {
 
   type TBusinessContext = NCFBusinessContext
 
-  case class Todo(key: TodoKey,sku: String, title: String, description: String, userId: String, goToLink: String, courseLink: String, createdDate: DateTime, creditHours: Option[Double], daysUntilDue: Option[Int], assignedBy: Option[String]) extends LearningItem
+  case class Todo(key: TodoKey,sku: String, title: String, description: String, userId: String, goToLink: String, courseLink: String, createdDate: Option[DateTime], creditHours: Option[Double], daysUntilDue: Option[Int], assignedBy: Option[String]) extends LearningItem
 
   case class Approval(key: ApprovalKey, title: String, description: String, requestor: String) extends LearningItem
 
-  case class TodoKey(componentId : String, componentTypeId: String, revisionDate: Long) extends LearningItemKey
+  case class TodoKey(componentId : String, componentTypeId: String, revisionDate: Long) extends LearningItemKey {
+    val collection: String = LearningContextManager.KnownCollections.todos
+    def buildFilter() = {
+      ("lisCriteria/itemID " === componentId and "lisCriteria/itemTypeID" === componentTypeId and "lisCriteria/revisionDate" === revisionDate and "lisCriteria/includeDeeplink" === true).toString
+    }
+  }
 
-  case class ApprovalKey(key: Long) extends LearningItemKey
+  case class ApprovalKey(key: Long) extends LearningItemKey {
+    val collection: String = LearningContextManager.KnownCollections.approvals
+  }
 
+
+  object ApprovalKey {
+    val key = "key"
+  }
 
   object Todo {
     val sku = "sku"
@@ -44,6 +58,7 @@ package object ncf {
     val componentID = "componentID"
     val componentTypeID = "componentTypeID"
     val revisionDate = "revisionDate"
+    val detailsSku = "catalogSKU"
   }
 
 

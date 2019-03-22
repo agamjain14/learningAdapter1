@@ -2,7 +2,6 @@ package net.ajn.credentialutil.client.ncf
 
 import com.typesafe.config.Config
 import net.ajn.credentialutil.client.learning.impl.LearningAdapterClientProxy
-import net.ajn.credentialutil.client.learning.impl.LearningTokenProvider.LearningTokenRequest
 import net.ajn.credentialutil.svc.ifaces.{AuthTypes, ContentTypes}
 import net.ajn.credentialutil.svc.models
 import net.ajn.credentialutil.svc.models.{ClientCredentialsRequest, TokenRequest}
@@ -127,11 +126,9 @@ object LearningContextManager {
   object KnownCollections {
     val todos = "UserTodoLearningItems"
     val approvals = "learningapprovals"
+    val todoDetails = "LearningItemDetails"
 
   }
-
-
-
 
 
   val sampleParamsMap = Map(

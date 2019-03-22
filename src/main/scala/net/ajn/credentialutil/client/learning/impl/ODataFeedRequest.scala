@@ -1,11 +1,11 @@
 package net.ajn.credentialutil.client.learning.impl
 
-import com.typesafe.config.Config
+// import com.typesafe.config.Config
 import net.ajn.credentialutil.client.ncf.TSourceContext
 import net.ajn.credentialutil.svc.models.TokenRequest
-import net.ceedubs.ficus.Ficus._
-import net.ceedubs.ficus.readers.ValueReader
-
+// import net.ceedubs.ficus.Ficus._
+//import net.ceedubs.ficus.readers.ValueReader
+//
 trait Request {
   def endpoint: String
   def collection: String
@@ -35,7 +35,10 @@ case class LearningFeedRequest(endpoint: String, collection: String, tokenReques
 
   def setExpand(xpd: List[String]) = this.copy(expand = Some(xpd))
 
-  def setSelect(slct: List[String]) = this.copy(select = Some(slct))
+  def setSelect(slct: Option[List[String]]) = this.copy(select = slct)
+
+  def setCollection(coll : String) = this.copy(collection = coll)
+
 
 
 }
@@ -43,7 +46,7 @@ case class LearningFeedRequest(endpoint: String, collection: String, tokenReques
 
 object LearningFeedRequest {
 
-  implicit object FeedRequestValueReader extends ValueReader[LearningFeedRequest] {
+  /*implicit object FeedRequestValueReader extends ValueReader[LearningFeedRequest] {
     override def read(config: Config, path: String): LearningFeedRequest = {
       val _config = config.getConfig(path)
       LearningFeedRequest(
@@ -63,9 +66,9 @@ object LearningFeedRequest {
     val p = s"adapter.learning.${source}"
     config.as[LearningFeedRequest](p)
 
-  }
+  }*/
 
-  def buildFromTSourceContext(source: TSourceContext) : LearningFeedRequest = {
+  private def buildFromTSourceContext(source: TSourceContext) : LearningFeedRequest = {
     LearningFeedRequest(
       userId = None,
       endpoint = source.endPoint,
@@ -78,6 +81,11 @@ object LearningFeedRequest {
   }
 
 
+
+
+  def buildFromTSourceContextWithUser(sourceContext: TSourceContext, userId: String) ={
+    buildFromTSourceContext(sourceContext).setUser(userId)
+  }
 
 
 }

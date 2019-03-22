@@ -7,6 +7,7 @@ import net.ajn.credentialutil.svc.models.TokenRequest
 import net.atos.ncf.common.objs.NCFActionDefinition
 import net.atos.ncf.itemprovider.adapter.lib.ifaces.IQueryHandler
 import net.atos.ncf.itemprovider.adapter.lib.objs.{AdapterContext, ItemDataWithId}
+import scala.collection.JavaConverters._
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -18,23 +19,30 @@ class LearningQueryHandler extends IQueryHandler[TItemId, TItemData, TBusinessCo
     */
   override def pullAll(context: AdapterContext[TSourceContext, TUserContext])(implicit ec: ExecutionContext): Future[Seq[ItemDataWithId[TItemId, TItemData]]] = {
     val client = context.userContext.client
-    val request: LearningFeedRequest = LearningFeedRequest.buildFromTSourceContext(source = context.sourceContext).setUser(context.userId)
-
+    val request: LearningFeedRequest = LearningFeedRequest.buildFromTSourceContextWithUser(sourceContext = context.sourceContext, userId = context.userId)
     for {
       feed <- client.readFeed(request)
-
     }yield Converters.fromClientEntitySetToLearningItemSet(feed,context.sourceContext).map(item => ItemDataWithId(item.key,item))
   }
-
-
   /**
     * Pulls many elements by their ids from a backend system.
     *
     * @param context Instance of [[AdapterContext]].
     * @param itemIds ids of the items to pull.
     */
-  override def pullMany(context: AdapterContext[TSourceContext, TUserContext], itemIds: TItemId*)(implicit ec: ExecutionContext): Future[Seq[ItemDataWithId[TItemId, TItemData]]] = ???
-
+  override def pullMany(context: AdapterContext[TSourceContext, TUserContext], itemIds: TItemId*)(implicit ec: ExecutionContext): Future[Seq[ItemDataWithId[TItemId, TItemData]]] = {
+    val client = context.userContext.client
+    context.sourceContext.collection match {
+      case LearningContextManager.KnownCollections.todos =>
+        Future.sequence(itemIds.map {itemid =>
+          val request = LearningFeedRequest.buildFromTSourceContextWithUser(sourceContext = context.sourceContext, userId = context.userId)
+            .setCollection(LearningContextManager.KnownCollections.todoDetails)
+            .setSelect(None)
+            .setFilter(itemid.asInstanceOf[TodoKey].buildFilter())
+            client.readFeed(request).map(entitySet => Converters.fromClientEntityDetailsCollectionToLearningItem(entitySet.getEntities.asScala.toList.head, context.sourceContext, LearningContextManager.KnownCollections.todoDetails, context.userId)).map(learningItem => ItemDataWithId(learningItem.key, learningItem))
+        })
+    }
+  }
   /**
     * Pulls many elements business context by their ids from a backend system.
     *
